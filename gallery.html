@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>BLOG</title>
+    <script
+    src="https://kit.fontawesome.com/66aa7c98b3.js"
+    crossorigin="anonymous"
+    
+  ></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+
+<script type="text/javascript"
+        src=
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script> 
+</head>
+<body>
+    <nav>
+            <img src="assests/sabreslogo.png"  class="log" alt="Logo">
+            
+            <div id="google_translate_element"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button id="changeColorButton">Change Color</button>
+        </ul>
+    </nav>
+
+    <h1 class="center">Gallery</h1>
+        
+    <div class="gallery" id="image-gallery">
+        <div class="gallery-item">
+            <img src="assests/fundlink (1).png" alt="Photo 1" data-index="0">
+            <div class="gallery-caption">Crate photo 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assests/Crate.png" alt="Photo 2" data-index="1">
+            <div class="gallery-caption">photo 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assests/Frontizo.jpg" alt="Photo 3" data-index="2">
+            <div class="gallery-caption"> Photo 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assests/HotelTonight Thumbnail.png" alt="Photo 3" data-index="3">
+            <div class="gallery-caption">photo 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assests/loppeko.png" alt="Photo 3" data-index="4">
+            <div class="gallery-caption">Photo 5</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assests/Nursify5.png" alt="Photo 3" data-index="5">
+            <div class="gallery-caption">Photo 6</div>
+        </div>
+    </div>
+
+    <div class="image-overlay" id="image-overlay">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <img src="" alt="Expanded Image" id="expanded-image">
+        <div class="caption" id="caption"></div>
+        <span class="prev-btn" id="prev-btn">&#10094;</span>
+        <span class="next-btn" id="next-btn">&#10095;</span>
+    </div>
+
+    <style>
+    .center{
+    text-align: center;
+}
+    </style>
+
+    <script src="gallery.js"></script>
+</body>
+    
+    <div class="footer">
+        <div class="content">
+          <div class="links">
+            <img src="assests/sabreslogo.png" class="log" id="logaa" alt="Logo">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Gallery</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <div class="social-media">
+            <h4>Social</h4>
+            <p>
+              <a href="#"
+                ><i class="fab fa-linkedin"></i> Linkedin</a
+              >
+            </p>
+            <p>
+              <a href="#"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </p>
+            <p>
+              <a href="https://www.facebook.com/codewithfaraz"
+                ><i class="fab fa-facebook"></i> Facebook</a
+              >
+            </p>
+            <p>
+              <a href="https://www.instagram.com/codewithfaraz"
+                ><i class="fab fa-instagram"></i> Instagram</a
+              >
+            </p>
+          </div>
+          <div class="services">
+            <h4>Services</h4>
+            <p><a href="#">App development</a></p>
+            <p><a href="#">Web development</a></p>
+            <p><a href="#">Digital Marketing</a></p>
+            <p><a href="#">Web designing</a></p>
+          </div>
+          <div class="details">
+            <h4 class="address">Address</h4>
+            <p>
+              B-33 plot number 33, sector 6 <br />
+              Noida, uttar Pradesh
+            </p>
+            <h4 class="mobile">Mobile</h4>
+            <p><a href="#">+91-7277244691</a></p>
+            <h4 class="mail">Email</h4>
+            <p><a href="#">sabres.hr.in</a></p>
+          </div>
+        </div>
+        <footer>
+          <hr />
+          © 2023 SABRES GRPUP
+        </footer>
+      </div>
+</body>
+</html>
